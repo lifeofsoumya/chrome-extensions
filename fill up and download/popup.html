@@ -2,13 +2,19 @@
 <html>
 <head>
     <title>Save form Data in a Text File using JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
         }
+        body{
+            max-width:800px;
+        }
     	div {
             padding: 10px;
-            background-color: #f6f6f6;
+            background-color: white;
             overflow: hidden;
         }
     	input[type=text], textarea, select {
@@ -27,6 +33,7 @@
         	color:black;
         	background-color:#f2c500;
             border:none;
+            border-radius: 3px;
         }
 
     </style>
@@ -37,17 +44,13 @@
         <!--Add few elements to the form-->
 
         <div>
-            <input type="text" id="txtName" placeholder="Enter your name" />
+            <input type="text" id="txtName" placeholder="Enter Task Name" />
         </div>
         <div>
-            <input type="text" id="txtAge" placeholder="Enter your age" />
+            <input type="text" id="txturl" placeholder="Enter URL" />
         </div>
         <div>
-            <input type="text" id="txtEmail" placeholder="Enter your email address" />
-        </div>
-        
-        <div>
-            <textarea id="msg" name="msg" placeholder="Write some message ..." style="height:100px"></textarea>
+            <textarea id="msg" name="msg" placeholder="Elaborate Tasks ..." style="height:100px"></textarea>
         </div>
         <div>
             <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
