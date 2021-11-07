@@ -3,8 +3,6 @@ gotsix=0
 
 let dice = document.querySelectorAll("img");
 
-document.getElementById("click").addEventListener("click", randomcard)
-
 function randomcard(){
 let randomnumber=Math.floor(Math.random()*6) +1
 document.getElementById("demo").innerHTML= "You Got" + ": "+ randomnumber;
