@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name":"Random Quote Generator",
+    "description": "Random Quotes are being generated using API",
+    "version":"1.0.0",
+    "icons": {  
+        "128": "/image/quotes.png"
+    },
+    "browser_action":{
+        "default_icon":"/image/quotes.png",
+        "default_popup":"quote.html"
+    },
+    "permissions":["activeTab"]
+
+}
