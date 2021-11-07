@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="popup.js"></script>
+    <style>
+body{
+  padding-top:40px;
+  width:800px;
+  height:440px;
+  font-family:poppins;
+  font-size:23px;
+  text-align:center;
+  background-image: url("https://cdn.discordapp.com/attachments/795866620412428330/906090928178081792/wp2712818-red-and-white-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+button{
+  font-family:montserrat;
+  color:white;
+  background-color:black;
+  padding:20px 18px;
+  border-radius:9px;
+}
+
+img
+{user-select:none;
+-webkit-user-drag: none;}
+
+
+.shake{
+    animation: shake 0.5s infinite;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(18deg);
+    }
+    50%{
+        transform: rotate(-18deg);
+    }
+    100%{
+        transform: rotate(18deg);
+    }
+}
+    </style>
+    </head>
+<body>
+
+<p id="demo"><b>This is Dice display</b></p>
+    <button onclick="randomcard()"><b>Click to Roll dice</b></button>
+    <p id="sixshow"> </p>
+    <img  id="die">
+
+</body>
+
+
+
+</html>
