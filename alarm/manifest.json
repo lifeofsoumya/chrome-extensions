@@ -1,0 +1,16 @@
+{
+    "name": "Set Alarm easily",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "64.png"
+    },
+    "background": {
+        "persistent": false
+    },
+    "icons": {
+        "128": "128.png"
+    },
+    "permissions": [ "activeTab", "tabs", "storage" ]
+}

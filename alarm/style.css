@@ -1,0 +1,77 @@
+html,
+body {
+  max-height: 500px;
+  width: 800px;
+  overflow: hidden;
+}
+
+/* background */
+body {
+  background: linear-gradient(#f2c500, rgb(255, 153, 0));
+  text-align: center;
+}
+
+/* header */
+h1 {
+  font-family: "Orbitron", sans-serif;
+  font-size: 4em;
+  color: rgb(255, 255, 255);
+}
+
+/* buttons */
+button {
+  cursor: pointer;
+  font-size: 1.1em;
+  margin: 0 5px;
+  padding: 10px 30px;
+  background: #f2c500;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: 0;
+  color: black;
+  transition: all ease 300ms;
+}
+button:hover {
+  color: #333;
+  background: #fff;
+}
+
+/* center content vertically and horizontally */
+.table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: default;
+}
+
+/* variable misc classes */
+.hide {
+  display: none;
+}
+
+select {
+  background-color: #f2c500;
+  padding: 4px 5px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+select::-webkit-scrollbar {
+  background-color: black;
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f26d00;
+  border-radius: 10px;
+}
