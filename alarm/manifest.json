@@ -6,9 +6,6 @@
         "default_popup": "popup.html",
         "default_icon": "64.png"
     },
-    "background": {
-        "persistent": false
-    },
     "icons": {
         "128": "128.png"
     },
