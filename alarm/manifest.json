@@ -1,7 +1,7 @@
 {
     "name": "Set Alarm easily",
     "version": "1.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": "64.png"
